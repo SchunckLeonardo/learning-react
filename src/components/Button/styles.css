@@ -1,0 +1,21 @@
+.button {
+    width: 100%;
+    background-color: coral;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px coral;
+}
+
+.button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+    box-shadow: 0 0 0 #fff;
+}
