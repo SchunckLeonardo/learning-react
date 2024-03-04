@@ -1,7 +1,6 @@
 import "./styles.css"
 
-export const PostCard = (props) => {
-    const { title, cover, body } = props.infos
+const PostCard = ({ title, cover, body }) => {
 
     return (
         <div className='post'>
@@ -13,3 +12,5 @@ export const PostCard = (props) => {
         </div>
     )
 }
+
+export default PostCard
